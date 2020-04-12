@@ -15,5 +15,12 @@ public class LoginTest {
 		
 		keywordEngine.startExecuttion("login");
 	}
-
+	
+	@Test
+	public void signUpTest()
+	{
+		keywordEngine = new KeywordEngine();
+		
+		keywordEngine.startExecuttion("signup");
+	}
 }
